@@ -90,16 +90,26 @@ supercal5.conf
 Example:
 
 [MQTT]
+
 host = mqtt.demo.example
+
 port = 1883
+
 username = mqtt
+
 password = mqtt_password
 
+
 [MBUS]
+
 serial_port = /dev/ttyAMA0
+
 baud_rate = 2400
+
 meter_address = 1
+
 poll_interval = 300
+
 
 
 ### MQTT Settings
@@ -131,7 +141,9 @@ python3 supercal5.py
 You should see output like:
 
 Sending Home Assistant discovery configs...
+
 Polling meter every 300s...
+
 Published: {'energy': 54999, 'temp_flow': 50.14, 'temp_return': 50.13, 'flow_rate': 0.23, 'heat_W': 1234.5}
 
 
