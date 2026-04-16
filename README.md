@@ -203,7 +203,7 @@ Check:
 
 ## License
 
-MIT License — free to use, modify, and share.
+GPL-3.0 license
 
 
 
