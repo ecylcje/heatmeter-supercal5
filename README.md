@@ -86,21 +86,20 @@ Create or edit:
 
 supercal5.conf
 
-
 Example:
 
-[MQTT] 
-host = mqtt.demo.example 
-port = 1883 
-username = mqtt 
-password = mqtt_password 
+[MQTT]  
+host = mqtt.demo.example  
+port = 1883  
+username = mqtt  
+password = mqtt_password  
 
 
-[MBUS] 
-serial_port = /dev/ttyAMA0 
-baud_rate = 2400 
-meter_address = 1 
-poll_interval = 300 
+[MBUS]  
+serial_port = /dev/ttyAMA0  
+baud_rate = 2400  
+meter_address = 1  
+poll_interval = 300  
 
 ### MQTT Settings
 
