@@ -177,9 +177,8 @@ WantedBy=multi-user.target
 
 Enable:
 
-sudo systemctl enable supercal5
-sudo systemctl start supercal5
-
+sudo systemctl enable supercal5  
+sudo systemctl start supercal5  
 
 ---
 
