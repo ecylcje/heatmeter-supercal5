@@ -89,10 +89,10 @@ supercal5.conf
 Example:
 
 [MQTT]  
-host = mqtt.demo.example  
+host = localhost 
 port = 1883  
-username = mqtt  
-password = mqtt_password  
+username = demo  
+password = demo  
 
 
 [MBUS]  
