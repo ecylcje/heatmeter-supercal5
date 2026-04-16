@@ -71,8 +71,8 @@ cd heatmeter-supercal5
 
 Install dependencies:
 
-pip install -r paho-mqtt
-pip install -r pyserial
+pip install -r paho-mqtt  
+pip install -r pyserial  
 
 (Or install manually: `paho-mqtt` and `pyserial`.)
 
