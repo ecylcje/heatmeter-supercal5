@@ -199,6 +199,10 @@ Check:
 - MQTT credentials correct  
 - Discovery prefix is `homeassistant`  
 
+## Reference
+
+M-bus specification (M-Bus Frames SC5 - 2023-08-21 - 1.0.5.pdf): https://community.openenergymonitor.org/uploads/short-url/i6IPaUbt4xI46eDiPpTPhmF3lFo.pdf
+
 ---
 
 ## License
