@@ -129,12 +129,9 @@ python3 supercal5.py
 
 You should see output like:
 
-Sending Home Assistant discovery configs...
-
-Polling meter every 300s...
-
-Published: {'energy': 54999, 'temp_flow': 50.14, 'temp_return': 50.13, 'flow_rate': 0.23, 'heat_W': 1234.5}
-
+Sending Home Assistant discovery configs...  
+Polling meter every 300s...  
+Published: {'energy': 54999, 'temp_flow': 50.14, 'temp_return': 50.13, 'flow_rate': 0.23, 'heat_W': 1234.5}  
 
 ---
 
@@ -166,17 +163,17 @@ If you want the script to run automatically on boot, create:
 
 /etc/systemd/system/supercal5.service
 
-[Unit]
-Description=Supercal 5 M-Bus Reader
-After=network.target
+[Unit]  
+Description=Supercal 5 M-Bus Reader  
+After=network.target  
 
-[Service]
-ExecStart=/usr/bin/python3 /path/to/supercal5.py
-WorkingDirectory=/path/to/
-Restart=always
-
-[Install]
-WantedBy=multi-user.target
+[Service]  
+ExecStart=/usr/bin/python3 /path/to/supercal5.py  
+WorkingDirectory=/path/to/  
+Restart=always  
+  
+[Install]  
+WantedBy=multi-user.target  
 
 Enable:
 
