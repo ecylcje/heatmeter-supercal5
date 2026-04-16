@@ -65,6 +65,7 @@ pip install paho-mqtt pyserial
 Clone the repository:
 
 git clone https://github.com/ecylcje/heatmeter-supercal5.git
+
 cd heatmeter-supercal5
 
 
