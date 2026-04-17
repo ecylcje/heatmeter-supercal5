@@ -7,7 +7,7 @@ This project is designed for:
 - Heat‑meter telemetry  
 - Home Assistant integrations  
 - Long‑interval, battery‑safe polling  
-- Direct M‑Bus wired connections (e.g., /dev/ttyAMA0 or USB‑M-Bus adapters)
+- Direct M‑Bus wired connections (e.g., /dev/ttyAMA0 or USB‑M-Bus adapters or Pi Hat eg https://www.packom.net/product/m-bus-master-hat/)
 
 It implements the **correct Supercal 5 M‑Bus protocol**, including:
 
